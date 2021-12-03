@@ -10,6 +10,13 @@
 		margin-right: _size(section-spacing);
 		min-width: 22em;
 		width: 22em;
+		background-color: #393E46;
+		p, h2, a {
+			color: #EEEEEE;
+		}
+		.button {
+			background-color: #EEEEEE;
+		}
 
 		> * {
 			border-top: solid 1px _palette(border);

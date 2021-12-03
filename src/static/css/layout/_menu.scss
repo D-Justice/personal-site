@@ -25,6 +25,7 @@
 		visibility: hidden;
 		width: _size(menu);
 		z-index: _misc(z-index-base) + 2;
+		background-color: black;
 
 		> * {
 			border-top: solid 1px _palette(border);

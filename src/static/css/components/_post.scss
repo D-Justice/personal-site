@@ -12,7 +12,14 @@
 		border: solid 1px _palette(border);
 		margin: 0 0 _size(section-spacing) 0;
 		position: relative;
-
+		background-color: #222831;
+		h1, h2, p, a {
+			color: #EEEEEE;
+		}
+		header, article {
+		background-color: #222831;
+			color: #EEEEEE;
+		}
 		> header {
 			@include vendor('display', 'flex');
 			border-bottom: solid 1px _palette(border);
@@ -20,6 +27,7 @@
 			margin: (_size(section-spacing) * -1) 0 _size(section-spacing) 0;
 			position: relative;
 			width: calc(100% + #{_size(section-spacing) * 2});
+			
 
 			.title {
 				@include vendor('flex-grow', '1');

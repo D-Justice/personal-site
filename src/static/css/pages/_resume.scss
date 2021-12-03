@@ -1,7 +1,16 @@
 /* Resume */
 
 #resume {
+	background-color: #222831;
+	color: #EEEEEE;
+	h1, h2, h3, h4, p, a {
+	color: #EEEEEE;
 
+	}
+	button {
+		background-color: #EEEEEE;
+		margin: 0, 10px, 0, 10px;
+	}
 	.link-to {
 		position: relative;
 		top: -4.5em;
@@ -19,10 +28,11 @@
 	}
 
 	.education {
-
+		
 		.title {
 			text-align: center;
 			margin-bottom: 2em;
+
 		}
 	}
 	.experience {
@@ -38,6 +48,7 @@
 	}
 
 	.jobs-container {
+		
 		.points {
 			li {
 				margin: 0;
